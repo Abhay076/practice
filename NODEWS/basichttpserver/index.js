@@ -10,8 +10,11 @@ function requestHandler(req,res){
       case '/':
         filePath ='./index.html'
         break;
-      case '/profile':
+      case '/profile.html':
         filePath = './profile.html'
+        break;
+      case '/abhay.html':
+        filePath='./abhay.html'
         break;
       default:
         filePath='./404.html';
