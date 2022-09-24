@@ -8,4 +8,6 @@ Web Server =>
     Web servers as well.
 
 What is package.json? => 
-    Package.json contains the metadata and project dependencies of Node project           
+    Package.json contains the metadata and project dependencies of Node project.
+
+what is used of fs?=> this is used to reading and writing into from a file.         
