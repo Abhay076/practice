@@ -2,7 +2,8 @@ const http = require('http');
 const port = 8000;
 function requestHandler(req,res){
     console.log(req.url);
-    res.end('Hello World');
+    res.writeHead(200,{'content-type':'text/html'});
+    res.end('<h1>Hello World</h1>');
 }
 const server = http.createServer(requestHandler);
 
