@@ -12,15 +12,16 @@
   `Libraries the NodeJs required.`
 
 ## Setting Up express server => 
-                             ```javascript 
-                             const express = require('express');
-                             const port = 8000;
-                             const app = express();
-                             app.listen(port,function(err){
-                                if(err){
-                                    console.log('Error',err);
-                                    return;
-                                }
-                                console.log('My express server is Running on the Port: ',port);
-                             });
-                             ```
+```javascript 
+const express = require('express');
+const port = 8000;
+const app = express();
+app.listen(port,function(err){
+  if(err){
+    console.log('Error',err);
+    return;
+  }
+ console.log('My express server is Running on the Port: ',port);
+});
+
+```
