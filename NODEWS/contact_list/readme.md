@@ -41,5 +41,5 @@ server.get('/',function(req,res){
 1. `PATCH: This is used for modifying the resource on the server.`
 1. `OPTIONS: This fetches the list of supported options of resources present on the server.`
 
-`The POST, GET, PUT, DELETE corresponds to the create, read, update, delete operations which are most commonly called CRUD Operations.`
+**The POST, GET, PUT, DELETE corresponds to the create, read, update, delete operations which are most commonly called CRUD Operations.**
 
