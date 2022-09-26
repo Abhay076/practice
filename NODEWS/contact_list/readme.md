@@ -25,3 +25,10 @@ app.listen(port,function(err){
 });
 
 ```
+## Return response from the server
+```javascript
+server.get('/',function(req,res){
+    res.send('<h1>Hello World! </h1>');
+});
+
+```
