@@ -34,7 +34,7 @@ server.get('/',function(req,res){
 ```
 ## HTTP Methods or requests?
 
-1. `**GET:** This is used for fetching details from the server and is basically a read-only operation.`
+1. **GET:** This is used for fetching details from the server and is basically a read-only operation.
 1. `POST: This method is used for the creation of new resources on the server.`
 1. `PUT: This method is used to update the old/existing resource on the server or to replace the resource.`
 1. `DELETE: This method is used to delete the resource on the server.`
