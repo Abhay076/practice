@@ -32,3 +32,6 @@ server.get('/',function(req,res){
 });
 
 ```
+## HTTP Methods or requests?
+
+1. `GET: This is used for fetching details from the server and is basically a read-only operation.`
