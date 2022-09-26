@@ -1,4 +1,4 @@
-                         >module - 2 => My "First Express App :: A List of Contacts!"
+                         module - 2 => My "First Express App :: A List of Contacts!"
 
 ## Why express=> 
 `ExpressJS is a prebuilt NodeJS framework that can help you in creating server-side web applications faster and smarter`
@@ -42,4 +42,7 @@ server.get('/',function(req,res){
 1. **OPTIONS:** This fetches the list of supported options of resources present on the server.
 
 **The POST, GET, PUT, DELETE corresponds to the create, read, update, delete operations which are most commonly called CRUD Operations.**
+
+## Template Engines Using EJS
+[EJS](https://ejs.co/#install)
 
