@@ -1,12 +1,18 @@
 const express = require('express');
 const port = 8000;
 const server = express();
+const path = require('path');
 
-server.get('/profile',function(req,res){
+server.set('view engine','ejs');
+server.set('views',path.join(__dirname,'views'));
+
+server.get('/',function(req,res){
     res.send('<h1>Hello World! </h1>');
 });
 
-
+server.get('/profile',function(req,res){
+     return res.render('home');
+});
 
 server.listen(port,function(err){
     if(err){

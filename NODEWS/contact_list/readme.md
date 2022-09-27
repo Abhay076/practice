@@ -46,3 +46,13 @@ server.get('/',function(req,res){
 ## Template Engines Using EJS
 [EJS](https://ejs.co/#install)
 
+## Setting Up A Template Engine
+1. npm install ejs
+2. ```javascript
+    const path = require('path');
+    server.set('view engine','ejs');// set the ejs template in your project
+    server.set('views',path.join(__dirname,'views'));//__dirname means which directory which you have.
+    server.get('/profile',function(req,res){//this is router which you have to go.
+      returm res.render('index');//this index.html for the render html file
+    })
+```
